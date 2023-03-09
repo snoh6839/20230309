@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+* {margin-bottom: 15px; padding: 10px; color: #fff;}
+
+header div span {background: #37306B;}
+header > span {background: #66347F;}
+header + span {background: #9E4784;}
+span {background: #D27685;}
+div ~ div {background: #8D7B68;}
+div {background: #A4907C;}
+/* header ~ span {background: #C8B6A6;} */
+div ~ span {background: #C8B6A6;}
+

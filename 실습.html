@@ -1,0 +1,78 @@
+﻿<!DOCTYPE HTML>
+<html lang="ko">
+
+<head>
+  <meta charset="utf-8">
+  <title>gnb</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+
+    * {
+      box-sizing: border-box;
+      font-family: 'Black Han Sans', sans-serif;
+    }
+
+    ul {
+      list-style: none;
+      background-color: #F1DEC9;
+    }
+
+    .top-menu {
+      margin:  auto;
+      width: 605px;
+      padding: 0; 
+      box-shadow: 0 3px 4px #8b8b8b;
+      height: 35px;
+    }
+    
+
+    .top-menu li {
+      float: left;
+      border-right: 1px solid #C8B6A6;
+    }
+
+    .top-menu > li a:link {
+      color: #8D7B68;
+      text-decoration: none;
+      text-align: center;
+      display: block;
+      width: 100px;
+      height: 35px;
+      line-height: 35px;
+    }
+
+    .top-menu li:last-child {
+      border-right: none;
+    }
+
+    .top-menu li:not(:last-child) a:hover {
+      background-color: #A4907C;
+      color: #fff;
+    }
+
+    .top-menu li:last-child a:hover {
+      background-color: #FFACAC;
+      color: #fff;
+    }
+    
+
+  </style>
+</head>
+
+<body>
+  <nav>
+    <ul class="top-menu">
+      <li>
+        <a href="#">Menu 1</a>
+
+      </li>
+      <li><a href="#">Menu 2</a></li>
+      <li><a href="#">Menu 3</a></li>
+      <li><a href="#">Menu 4</a></li>
+      <li><a href="#">Menu 5</a></li>
+      <li><a href="#">Menu 6</a></li>
+    </ul>
+  </nav>
+</body>
+
+</html>

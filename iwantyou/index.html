@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <title>I Want You 회원가입</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>I Want YOU !</legend>
+            <ul>
+                <li>
+                    <span></span>
+                    <label for="name"> 이름</label>
+                    <input type="text" id="name" name="name" required maxlength="4" placeholder="왼쪽부터 4자까지"
+                        onfocus="this.placeholder=''" onblur="this.placeholder='왼쪽부터 4자까지'">
+                </li>
+                <li>
+                    <span></span>
+                    <label for="age"> 나이</label>
+                    <input type="number" id="age" name="age" required min="20" placeholder="20세 이상만"
+                        onfocus="this.placeholder=''" onblur="this.placeholder='20세 이상만'">
+                </li>
+                <li>
+                    <label for="gender"><span></span> 성별</label>
+                    <input type="radio" name="gender" checked value="female" id="female"> 
+                    <label for="female"> 여성</label>
+                    <input type="radio" name="gender" value="male" id="male">
+                    <label for="male"> 남성</label>
+                </li>
+                <li>
+                    <label for="requireText">요청사항</label>
+                    <textarea name="requireText" id="requireText" cols="30" rows="10" onfocus="this.value=''" onblur="this.value='요청사항을 입력해 주세요'">요청사항을 입력해 주세요</textarea>
+                </li>
+            </ul>
+            <button type="submit">보내기</button>
+        </fieldset>
+    </form>
+</body>
+
+</html>

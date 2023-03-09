@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <title>선택자</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <span>span {background: #D27685;}</span>
+    <header>
+        <div>
+            <span>header div span {background: #37306B;}</span>
+        </div>
+        <span>header > span {background: #66347F;}</span>
+    </header>
+    <span>header + span {background: #9E4784;}</span>
+    <span>span {background: #D27685;}</span>
+    <!-- <span>header ~ span {background: #C8B6A6;}</span> -->
+    <div>div {background: #A4907C;}</div>
+    <div>div ~ div {background: #A4907C;}</div>
+    <div>div ~ div {background: #8D7B68;}</div>
+    <div>
+        <span>div ~ span {background: #C8B6A6;}</span>
+        <div>div {background: #A4907C;}</div>
+        <span>div ~ span {background: #C8B6A6;}</span>
+        <span>div ~ span {background: #C8B6A6;}</span>
+    </div>
+</body>
+
+</html>
